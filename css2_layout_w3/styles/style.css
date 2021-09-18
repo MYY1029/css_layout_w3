@@ -1,0 +1,76 @@
+body {
+  font-family: "Inter";
+  font-weight: inherit;
+  color: black;
+  margin-top: 35px;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  font-family: "Inter";
+  font-weight: initial;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.781);
+  margin: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div {
+  margin-left: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-left: 140px;
+}
+
+.card {
+  float: left;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.02), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: lightgrey;
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  margin: 1px;
+  margin-top: 12px;
+  width: 125px;
+  height: 10px;
+  padding: 10px;
+  background-color: rgb(238, 208, 208);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+}
+
+#b2 {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+#b4 {
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgba(65, 105, 225, 0.89);
+}
+
+#header {
+  color: rgb(241, 2, 2);
+  text-shadow: 1px 1px 5px #30303048;
+}

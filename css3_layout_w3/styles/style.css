@@ -1,0 +1,83 @@
+body {
+  font-family: "Inter";
+  margin-top: 40px;
+  color: black;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: black;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+div {
+  margin-left: 140px;
+  margin-top: 40px;
+  background: white;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-left: 140px;
+  position: absolute;
+}
+
+.greybox {
+  margin-top: 5px;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 4;
+  width: 120px;
+  height: 95px;
+  border-radius: 5px;
+  background: rgb(177, 171, 171);
+}
+
+.card1 {
+  float: left;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: lightgrey;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  text-shadow: rgb(197, 197, 197);
+}
+
+.card2 {
+  float: left;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgb(76, 114, 228);
+}
+
+.header {
+  color: rgb(221, 63, 90);
+}
+
+#rotate {
+  position: absolute;
+  z-index: 2;
+  margin-top: 350px;
+  margin-left: 350px;
+  transform: rotateZ(-20deg);
+}
